@@ -9,12 +9,12 @@ body{
 
 header{
     height: 81px;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .img-fluid{
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
 }
 
