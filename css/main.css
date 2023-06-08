@@ -13,10 +13,6 @@ header{
     margin: auto;
 }
 
-.img-fluid{
-    max-width: 60%;
-    height: auto;
-}
 
 ul > li > a:hover{
     background-color: #EDEDED;
