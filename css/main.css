@@ -1,7 +1,6 @@
 body{
     background-color: #E8E8E8;
-    font-family: 'Poppins';font-size: 14px;
-
+    font-family: 'Poppins'; font-size: 14px;
 }
 
 .s_tbdr{
@@ -9,9 +8,10 @@ body{
 }
 
 header{
-    height: 81px; 
+    min-height: 81px ;
+    width: 94%;
+    margin: auto;
 }
-
 
 ul > li > a:hover{
     background-color: #EDEDED;
@@ -45,14 +45,14 @@ main{
     height: 3545px;
 }
 
-.mt-5.s_mt-5{
+/* .mt-5.s_mt-5{
    margin-top: 5rem!important;
-}
-
+} */
+/* 
 footer{
-    /* height: 1880px; */
+    height: 1880px;
 
-}
+} */
 
 .s_footer1{
     height: 112px;
@@ -69,6 +69,16 @@ footer{
 .s_footer4{
     height: 97px;
 }
+
+@media screen and (max-width: 576px){
+    .s_form_col{
+        height: 50px;
+    }
+
+}
+    
+
+
 
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
