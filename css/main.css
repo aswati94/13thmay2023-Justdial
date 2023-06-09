@@ -1,5 +1,6 @@
 body{
     background-color: #E8E8E8;
+    font-family: 'Poppins';font-size: 14px;
 
 }
 
@@ -8,9 +9,7 @@ body{
 }
 
 header{
-    height: 81px;
-    width: 90%;
-    margin: auto;
+    height: 81px; 
 }
 
 
@@ -20,6 +19,11 @@ ul > li > a:hover{
     border-radius: 2px;
 }
 
+.s_menu > li >a{
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
 
 .s_menu > li:hover ul{
     display: block;
