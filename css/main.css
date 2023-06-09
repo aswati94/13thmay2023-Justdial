@@ -70,6 +70,11 @@ footer{
     height: 97px;
 }
 
+
+.s_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 @media screen and (max-width: 576px){
     .s_form_col{
         height: 50px;
