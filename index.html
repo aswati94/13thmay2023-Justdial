@@ -18,40 +18,42 @@
 
         <!-- The main Container of the Website -->
         <div class="container bg-white s_cont">  
-            <!-- header of the website -->
+            <!-- header of the website --> 
             <header class= "sticky-top bg-white w-100">
                 <div class="row h-100">
                     <!-- header 1st column -->
-                    <div class="col-4 col-sm-1 s_form_colr s_tbdr">
+                    <div class="col-4 col-sm-1 s_form_col s_tbdr">
                         <a href="#" class="d-block h-100">
-                            <img class="img-fluid mt-5" src="./img/logo.svg" />
+                            <img class="img-fluid mt-2 pt-3" src="./img/logo.svg" />
                         </a>
                     </div>
                     <!-- header 2nd column -->
                     <div class="col-8 col-sm-4 s_form_col s_tbdr">
-                        <ul class="nav float-end mt-2 d-block d-sm-none s_tnr">
-                            <li class="nav-item">
-                              <a class="nav-link active bg-primary text-white rounded-pill mt-1 pt-1 pb-1 align-top" aria-current="page" href="#">OPEN APP</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link pt-1 pb-1" href="#"><img src="./img/headernotifnicn.svg
-                                " alt=""> </a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link pt-1 pb-1" href="#"> <img src="./img/burgericnew.svg" alt=""> </a>
-                            </li>
-                        </ul>
+                        <div class="d-block d-sm-none">
+
+                            <ul class="nav float-end mt-2 s_tnr">
+                                <li class="nav-item">
+                                  <a class="nav-link active bg-primary text-white rounded-pill mt-1 pt-1 pb-1 align-top" aria-current="page" href="#">OPEN APP</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link pt-1 pb-1" href="#"><img src="./img/headernotifnicn.svg" /> </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link pt-1 pb-1" href="#"> <img src="./img/burgericnew.svg" /> </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- header 3rd column -->
-                    <div class="col-12 col-sm-7 pt-2 pb-2 ps-3">
+                    <div class="col-12 col-sm-7 pt-2 pb-2 pe-4 s_tbdr">
                         <!-- .....FORM for Search Tab..... -->
-                        <form class="d-sm-none d-md-none border pt-0 pb-0 border-dark rounded-3 p-1">
+                        <form class="d-sm-none d-md-none border pt-0 pb-0 border-dark-subtle rounded-3 p-1">
                             <div class="row">
-                                <div class="col-2 p-0">
+                                <div class="col-1 p-0">
                                     <img class="btn h-100" src="./img/hypersrch.svg" />  
                                 </div>
-                                <div class="col-8 p-0"> 
-                                    <input type="search" class="form-control border border-0" id="exampleInputPassword1">
+                                <div class="col-9 p-0"> 
+                                    <input type="search" placeholder="Packers and movers" class="form-control border border-0 fw500 shadow-none font-bold" id="exampleInputPassword1">
                                 </div>
                                 <div class="col-2 p-0"> 
                                     <button type="submit" class="btn float-end">
@@ -60,41 +62,180 @@
                                 </div>
                             </div> 
                         </form>
-                        <ul class="nav mt-3 ms-3 S_menu">
-                            <li class="nav-item s_tbdr">
-                                    <a class="nav-link active pt-1 pb-1 mt-2" href="#"><img src="./img/fabicon1.svg" alt="" class="pe-1">English <img src="./img/down_arrow5.svg" alt="">
-                                    <ul class="nav flex-column s_submenu border ms-1 list-unstyled bg-white">
-                                    <li class="nav-item"><a href="" class="nav-link active text-secondary-emphasis ps-2">Hindi</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-secondary-emphasis ps-2">English</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-secondary-emphasis ps-2">French</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-secondary-emphasis ps-2">Punjabi</a></li>
-                                    </ul></a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis pt-2 pb-1 mt-2" href="#">We are Hiring</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis fw400 font14 pt-2 pb-1 mt-2" href="#">Investor Relations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary-emphasis pt-1 pb-1 mt-2" href="#"> <img src="./img/fabicon2.svg" alt="" class="pe-1">Advertise</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis pt-1 pb-1 mt-2" href="#"> <img src="./img/fabicon3.svg" alt="" class="pe-1"> Free Listing </a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis pt-1 pb-1 mt-2" href="#"> <img src="./img/fabicon4.svg" alt=""> </a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis pt-1 pb-1 mt-2 pe-0 ps-0" href="#"> <img src="./img/fabicon5.svg" alt="">Login / Sign Up</a>
-                            </li>
-                        </ul>
+                        <!-- This below us whold not be visibl on extra small resouition -->
+                        <div class="d-none d-sm-block float-end">
+                            <ul class="nav mt-2 s_menu">
+                                <li class="nav-item s_tbdr">
+                                    <a class="nav-link active fw400 pt-1 pb-1 mt-1 ps-0 position-relative" href="#">
+                                            <img src="./img/fabicon1.svg" class="pe-1" />English 
+                                            <img src="./img/down_arrow5.svg"/>
+                                        <ul class="p-0 nav flex-column s_submenu position-absolute border ms-1 list-unstyled bg-white" style="top:58px">
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link active text-secondary-emphasis ps-2">Hindi
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link text-secondary-emphasis ps-2">English
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link text-secondary-emphasis ps-2">French
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link text-secondary-emphasis ps-2">Punjabi
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary-emphasis fw400 pt-2 pb-1 mt-2" href="#">We are Hiring</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary-emphasis fw400 font14 pt-2 pb-1 mt-2" href="#">Investor Relations
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary-emphasis fw400 pt-1 pb-1 mt-2" href="#"> 
+                                        <img src="./img/fabicon2.svg" class="pe-1" />Advertise
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary-emphasis fw400 pt-1 pb-1 mt-2" href="#"> 
+                                        <img src="./img/fabicon3.svg" class="pe-1" />Free Listing 
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary-emphasis fw400 pt-1 pb-1 mt-2" href="#"> 
+                                        <img src="./img/fabicon4.svg" /> </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary-emphasis  fw400 pt-1 pb-1 mt-2 pe-1" href="#"> <img src="./img/fabicon5.svg" />Login / Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </header>  
-            
-            
-            <main class="s_tbdr bg-success">MAIN</main>
+            <!-- .....This is the Main-Section of the webpage..... -->
+            <main class="mt-5 s_mt-5 s_tbdr bg-white">
+                <div class="s_m1 d-block d-sm-none">
+                    <div class="row m-0">
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/shop_online.svg" />
+                                Shop Online
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/b2b_2x_wog-15dec.gif" />
+                                B2B
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/finddoctors.svg" />
+                                Doctors
+                            </a>
+                                
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/travelbookings.svg" />
+                                Travel
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/beauty.svg" />
+                                Beauty
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/consultants.svg" />
+                                Consultants
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/renthire.svg" />
+                                Rent & Hire
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/weddingrequisites.svg" />
+                                Wedding Requisites
+                            </a>
+                          
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/Home-Services_2x.gif" />
+                                Home Services
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/jobconsultants.svg" />
+                                Jobs
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/repairsservices.svg" />
+                                Repairs & Services
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/pghostelhotkey2xnew.gif" />
+                                PG/Hostel
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/loans.svg" />
+                                Loans
+                            </a>
+                            
+                        </div> 
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/realestate.svg" />
+                                Real Estate
+                            </a>
+                            
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/education.svg" />
+                                Education
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex-item-center p-0 s_tbdr">
+                            <a href="#" class="btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/showmore.svg" />
+                                Show More
+                            </a>
+                            
+                        </div> 
+                    </div>
+                </div>     
+            </main>
+
+            <!-- //   this is the footer section // -->
             <footer class= "s_tbdr bg-warning"> 
                 <div class="s_footer1 border-top border-bottom s_tbdr ">f1</div>
                 <div class="s_footer2 s_tbdr">f2</div>

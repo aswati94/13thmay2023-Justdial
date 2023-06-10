@@ -10,8 +10,9 @@ body{
 header{
     min-height: 81px ;
     width: 94%;
-    margin: auto;
 }
+
+
 
 ul > li > a:hover{
     background-color: #EDEDED;
@@ -45,14 +46,14 @@ main{
     height: 3545px;
 }
 
-/* .mt-5.s_mt-5{
+.mt-5.s_mt-5{
    margin-top: 5rem!important;
-} */
-/* 
+} 
+
 footer{
     height: 1880px;
 
-} */
+}
 
 .s_footer1{
     height: 112px;
@@ -74,19 +75,24 @@ footer{
 .s_tnr{
     font-family: 'Times New Roman', Times, serif;
 }
+/* we can use media query to fix this issue */
+
 
 @media screen and (max-width: 576px){
     .s_form_col{
         height: 50px;
     }
-
+    /* We dont need the another media query block bcoz this block is doing the same thing so why should we take another media query block and increase our source code.
+    Its always our object to reduce the code
+    */
+    .s_menu a{
+        padding: 0px !important;
+    }
 }
     
-
-
 
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1440px;
-    }
-    }
+     }
+ }
