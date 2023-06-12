@@ -1,18 +1,30 @@
+/*
+There is no fontface rule declered here
+
+I am sure you have watch carefully earlier videos/lecture i have mentioned clearly 
+
+
+*/
+
 body{
     background-color: #E8E8E8;
-    font-family: 'Poppins'; font-size: 14px;
+   /*  font-family: 'Poppins', sans-serif; Now either we can have poppins or roboto but not both */
+    font-family: 'Roboto', sans-serif;
 }
-
+/* 
 .s_tbdr{
     border: 1px dashed red;
+} */
+
+.s_m1{
+    width: 100%;
+    height: 300px;
 }
 
 header{
     min-height: 81px ;
     width: 94%;
 }
-
-
 
 ul > li > a:hover{
     background-color: #EDEDED;
